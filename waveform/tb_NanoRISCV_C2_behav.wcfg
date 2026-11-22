@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_NanoRISCV_C2_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_NanoRISCV_C2" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="681.001 ns"></ZoomEndTime>
+      <Cursor1Time time="681.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="210"></NameColumnWidth>
+      <ValueColumnWidth column_width="98"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/tb_NanoRISCV_C2/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NanoRISCV_C2/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NanoRISCV_C2/perf_enable" type="logic">
+      <obj_property name="ElementShortName">perf_enable</obj_property>
+      <obj_property name="ObjectShortName">perf_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NanoRISCV_C2/perf_clear" type="logic">
+      <obj_property name="ElementShortName">perf_clear</obj_property>
+      <obj_property name="ObjectShortName">perf_clear</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NanoRISCV_C2/uut/pc_current" type="array">
+      <obj_property name="ElementShortName">pc_current[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_current[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NanoRISCV_C2/uut/ex_pc" type="array">
+      <obj_property name="ElementShortName">ex_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_pc[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NanoRISCV_C2/uut/ex_instruction" type="array">
+      <obj_property name="ElementShortName">ex_instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_instruction[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NanoRISCV_C2/uut/ex_valid" type="logic">
+      <obj_property name="ElementShortName">ex_valid</obj_property>
+      <obj_property name="ObjectShortName">ex_valid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NanoRISCV_C2/uut/take_branch" type="logic">
+      <obj_property name="ElementShortName">take_branch</obj_property>
+      <obj_property name="ObjectShortName">take_branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NanoRISCV_C2/uut/branch" type="logic">
+      <obj_property name="ElementShortName">branch</obj_property>
+      <obj_property name="ObjectShortName">branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NanoRISCV_C2/uut/zero_flag" type="logic">
+      <obj_property name="ElementShortName">zero_flag</obj_property>
+      <obj_property name="ObjectShortName">zero_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NanoRISCV_C2/uut/RegFile_Inst/registers[1]" type="array">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NanoRISCV_C2/uut/RegFile_Inst/registers[2]" type="array">
+      <obj_property name="ElementShortName">[2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NanoRISCV_C2/uut/RegFile_Inst/registers[3]" type="array">
+      <obj_property name="ElementShortName">[3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NanoRISCV_C2/uut/DataMem_Inst/memory[0]" type="array">
+      <obj_property name="ElementShortName">[0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[0][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NanoRISCV_C2/uut/Perf_Inst/cycle_cnt" type="array">
+      <obj_property name="ElementShortName">cycle_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NanoRISCV_C2/uut/Perf_Inst/instr_cnt" type="array">
+      <obj_property name="ElementShortName">instr_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NanoRISCV_C2/uut/Perf_Inst/branch_cnt" type="array">
+      <obj_property name="ElementShortName">branch_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">branch_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NanoRISCV_C2/uut/Perf_Inst/taken_cnt" type="array">
+      <obj_property name="ElementShortName">taken_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">taken_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NanoRISCV_C2/uut/Perf_Inst/load_cnt" type="array">
+      <obj_property name="ElementShortName">load_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">load_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NanoRISCV_C2/uut/Perf_Inst/store_cnt" type="array">
+      <obj_property name="ElementShortName">store_cnt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">store_cnt[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NanoRISCV_C2/perf_sel" type="array">
+      <obj_property name="ElementShortName">perf_sel[2:0]</obj_property>
+      <obj_property name="ObjectShortName">perf_sel[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NanoRISCV_C2/perf_data" type="array">
+      <obj_property name="ElementShortName">perf_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">perf_data[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_NanoRISCV_C2/perf_overflow" type="logic">
+      <obj_property name="ElementShortName">perf_overflow</obj_property>
+      <obj_property name="ObjectShortName">perf_overflow</obj_property>
+   </wvobject>
+</wave_config>
